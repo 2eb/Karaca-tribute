@@ -1,9 +1,9 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     text-align: center;
-    color: #333;
+    color: rgb(45, 45, 45);
     background-image: url("peter-hall-unsplash.jpg");
     background-size: cover;
 }
@@ -15,9 +15,12 @@ body {
     background: rgba(200, 230, 201,0.85);
 }
 
+#main > p {
+    font-size: 1.8rem;
+}
+
 .title {
     font-size: 4rem;
-    /* border: 1px solid black; */
     font-weight: bold;
 }
 
@@ -40,7 +43,7 @@ body {
 
 #image-caption {
     padding: 15px 0 5px 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 #headline {
