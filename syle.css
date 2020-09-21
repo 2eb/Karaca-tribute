@@ -1,0 +1,85 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+    background-image: url("peter-hall-unsplash.jpg");
+    background-size: cover;
+}
+
+#main {
+    margin: 50px 50px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(200, 230, 201,0.85);
+}
+
+.title {
+    font-size: 4rem;
+    /* border: 1px solid black; */
+    font-weight: bold;
+}
+
+#img-div {
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 30px auto 0 auto;
+    border-radius: 5px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+#image-caption {
+    padding: 15px 0 5px 0;
+    font-size: 1.4rem;
+}
+
+#headline {
+    margin: 50px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.content{
+    max-width: 720px;
+    text-align: left;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+.content p {
+    margin: 1rem 0;
+}
+
+blockquote {
+    max-width: 500px;
+    margin: .8rem auto 2rem auto;
+    font-style: italic;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 248, 220, .5);
+}
+
+strong {
+    font-weight: bold;
+}
+
+.awards {
+    margin: 2rem 0;
+}
+hr {
+    margin: 2rem 0;
+}
+a {
+    text-decoration: none;
+}
